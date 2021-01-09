@@ -5,7 +5,7 @@ import { HttpClient } from '@angular/common/http';
   providedIn: 'root',
 })
 export class ApiService {
-  constructor(private http: HttpClient) { }
+  constructor(private http: HttpClient) {}
   detailsSubject = new BehaviorSubject(0);
 
   getIrrigationData(): Observable<any> {
@@ -19,5 +19,4 @@ export class ApiService {
   editRecipe(bodyParams: any) {
     return this.http.put(`/recipees`, bodyParams);
   }
-
 }

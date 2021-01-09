@@ -11,7 +11,7 @@ import { Observable } from 'rxjs';
 export class GrowthPalnComponent implements OnInit {
   @Input('recipeGrowthData') recipeGrowthData: Observable<any>;
 
-  constructor(private apiService: ApiService, private router: Router) { }
+  constructor(private apiService: ApiService, private router: Router) {}
 
   ngOnInit(): void {
     console.log(this.recipeGrowthData);
@@ -35,10 +35,8 @@ export class GrowthPalnComponent implements OnInit {
   async delete(id: number) {
     let recipeGrowthData_resp = await this.recipeGrowthData.toPromise();
     console.log(id);
-    recipeGrowthData_resp.splice(id, 1);
+    recipeGrowthData_resp.data.splice(id, 1);
     this.apiService.editRecipe(recipeGrowthData_resp);
     console.log(recipeGrowthData_resp);
   }
-
-
 }

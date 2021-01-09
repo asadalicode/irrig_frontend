@@ -188,7 +188,7 @@
             "grow_A": "4",
             "grow_B": "4",
             "bloom_A": "20",
-            "bloom_B": "2",
+            "bloom_B": "20",
             "bloom_C": "3",
             "e_plus": "2",
             "targets": [
@@ -197,7 +197,8 @@
                 "ec": ".05",
                 "tds": "10"
               }
-            ]
+            ],
+            "isEdit": true
           }
         ],
         "run_times": [
