@@ -19,7 +19,6 @@ export class AddRecipeDetailsComponent implements OnInit {
   constructor(public apiService: ApiService, private _location: Location) { }
 
   async ngOnInit() {
-
     this.getDetails();
   }
 
@@ -64,7 +63,7 @@ export class AddRecipeDetailsComponent implements OnInit {
         this._location.back();
       } else {
         this.details.details.details = this.details.details.details.map((val: Object) => {
-          val["isEdit"] = false;
+          val['isEdit'] = false;
           return val;
         });
         this.details.details.run_times = this.details.details.run_times.map((val: Object) => {

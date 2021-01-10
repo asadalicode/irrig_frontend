@@ -6,8 +6,6 @@ import { SidebarLinksService } from './sidebar-links.service';
 import { AuthenticationService, CredentialsService } from '@app/auth';
 import { DOCUMENT } from '@angular/common';
 
-
-
 @Component({
   selector: 'app-shell',
   templateUrl: './shell.component.html',

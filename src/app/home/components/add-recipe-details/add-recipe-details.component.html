@@ -1,5 +1,5 @@
 <section class="statistic">
-  <div class="section__content section__content--p30 mb-3">
+  <div class="section_content section_content--p30 mb-3">
     <div class="container-fluid">
       <div class="row shadow_border">
         <div class="col-md-6 pb-3 pt-3">
@@ -49,8 +49,10 @@
             </div>
           </ng-template>
           <div class="col-md-4 d-flex custom-border col-sm-12">
-            <div class="col-md-12 d-flex justify_btw align-center pl-0 pr-0 pt-2 pb-2"
-              *ngIf="!data?.isEdit; else editable_row_units">
+            <div
+              class="col-md-12 d-flex justify_btw align-center pl-0 pr-0 pt-2 pb-2"
+              *ngIf="!data?.isEdit; else editable_row_units"
+            >
               <div class="d-flex tabs_border">
                 <p class="tabs__border pl-2 pr-2 text-white maroon_bg font-weight-bold">PH</p>
                 <p class="pl-4 pr-2">{{ data.targets[0].ph }}</p>
@@ -97,7 +99,7 @@
   </div>
 </section>
 <section class="statistic">
-  <div class="section__content section__content--p30 mb-3">
+  <div class="section_content section_content--p30 mb-3">
     <div class="container-fluid">
       <div class="row shadow_border">
         <div class="col-md-6 pb-3 pt-3">
