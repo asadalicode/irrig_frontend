@@ -206,7 +206,7 @@
             "start_time": "07:00 AM",
             "end_time": "11:00 AM",
             "total_duration": "4Hr 0Min",
-            "output": "85%",
+            "output": "10%",
             "select_days": [
               {
                 "id": 1,
@@ -243,19 +243,20 @@
                 "day": "Sat",
                 "bool": false
               }
-            ]
+            ],
+            "isEdit": true
           },
           {
             "id": 2,
             "start_time": "07:00 AM",
             "end_time": "11:00 AM",
             "total_duration": "4Hr 0Min",
-            "output": "85%",
+            "output": "88%",
             "select_days": [
               {
                 "id": 1,
                 "day": "Sun",
-                "bool": false
+                "bool": true
               },
               {
                 "id": 2,
@@ -280,14 +281,15 @@
               {
                 "id": 6,
                 "day": "F",
-                "bool": false
+                "bool": true
               },
               {
                 "id": 7,
                 "day": "Sat",
                 "bool": false
               }
-            ]
+            ],
+            "isEdit": true
           }
         ]
       },
@@ -330,7 +332,7 @@
               {
                 "id": 1,
                 "day": "Sun",
-                "bool": false
+                "bool": true
               },
               {
                 "id": 2,
@@ -350,7 +352,7 @@
               {
                 "id": 5,
                 "day": "Th",
-                "bool": false
+                "bool": true
               },
               {
                 "id": 6,
@@ -362,13 +364,14 @@
                 "day": "Sat",
                 "bool": false
               }
-            ]
+            ],
+            "isEdit": false
           },
           {
             "id": 2,
             "start_time": "07:00 AM",
             "end_time": "11:00 AM",
-            "total_duration": "4Hr 0Min",
+            "total_duration": "Hr 0Min",
             "output": "85%",
             "select_days": [
               {
@@ -406,7 +409,8 @@
                 "day": "Sat",
                 "bool": false
               }
-            ]
+            ],
+            "isEdit": true
           }
         ]
       },
